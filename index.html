@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Practical guides to everyday problems, product research and smarter decisions.">
+  <title>Nexus Finds | Practical Solutions for Everyday Life</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #202938;
+      background: #f5f7fa;
+      line-height: 1.65;
+    }
+    header {
+      background: #10243a;
+      color: white;
+      padding: 22px 8%;
+    }
+    .brand { font-size: 24px; font-weight: bold; }
+    nav { margin-top: 8px; }
+    nav a {
+      color: #dbeafe;
+      margin-right: 18px;
+      text-decoration: none;
+    }
+    .hero {
+      padding: 70px 8%;
+      background: #e8f1fb;
+    }
+    .hero h1 {
+      max-width: 720px;
+      font-size: clamp(34px, 5vw, 52px);
+      line-height: 1.15;
+      margin: 0 0 20px;
+    }
+    .hero p { max-width: 650px; font-size: 18px; }
+    main { max-width: 1100px; margin: auto; padding: 40px 22px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    article, .about {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 3px 14px #10243a12;
+    }
+    article h3 { margin-top: 0; }
+    footer {
+      background: #10243a;
+      color: white;
+      padding: 28px 8%;
+      margin-top: 40px;
+    }
+    footer a { color: #bfdbfe; }
+    .small { font-size: 14px; color: #526174; }
+    @media (max-width: 600px) {
+      .hero { padding: 48px 7%; }
+      header { padding: 20px 7%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">NEXUS FINDS</div>
+    <nav>
+      <a href="#guides">Guides</a>
+      <a href="#about">About</a>
+      <a href="#disclosure">Disclosure</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Practical solutions for everyday problems.</h1>
+    <p>
+      Clear, thoughtful guides to help you understand common
+      challenges, compare possible solutions, and make informed
+      decisions about products for everyday life.
+    </p>
+  </section>
+
+  <main>
+    <section id="guides">
+      <h2>Practical Guides</h2>
+      <p>Explore common household challenges and ways to approach them.</p>
+      <div class="grid">
+        <article>
+          <h3>How to Start Organizing a Small Space</h3>
+          <p>
+            Begin by identifying what you use every day, measuring
+            available storage, and grouping similar belongings.
+            A simple plan can help you avoid buying organizers
+            that do not fit your space.
+          </p>
+        </article>
+        <article>
+          <h3>How to Compare Products Before Buying</h3>
+          <p>
+            Define the problem first. Then compare dimensions,
+            materials, intended use, maintenance needs, and
+            return conditions. Avoid relying on a single feature
+            to make a purchase decision.
+          </p>
+        </article>
+        <article>
+          <h3>Making Better Use of Kitchen Storage</h3>
+          <p>
+            Take inventory of frequently used items, check
+            cabinet dimensions, and keep everyday essentials
+            accessible. Choose solutions based on your actual
+            kitchen layout and needs.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about" style="margin-top:32px">
+      <h2>About Nexus Finds</h2>
+      <p>
+        Nexus Finds is an independent project focused on researching
+        everyday consumer problems and developing useful,
+        understandable guides. Our goal is to make product research
+        more transparent and practical.
+      </p>
+      <p class="small">
+        Content is educational and should be checked and updated
+        as new information becomes available.
+      </p>
+    </section>
+
+    <section id="disclosure" class="about" style="margin-top:24px">
+      <h2>Affiliate Disclosure</h2>
+      <p>
+        Nexus Finds may participate in affiliate programs.
+        If affiliate links are added, we will clearly identify
+        them near the relevant recommendation.
+      </p>
+      <p>
+        We are not currently claiming that any product has been
+        independently tested or endorsed by a retailer.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Nexus Finds | Independent consumer research</p>
+    <p><a href="mailto:hello@example.com">Contact</a></p>
+    <p class="small" style="color:#dbeafe">
+      Replace the example contact address with a real project email
+      before publishing.
+    </p>
+  </footer>
+</body>
+</html>
